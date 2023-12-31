@@ -15,7 +15,7 @@ Getting Started
 If this is your first web project and you'd like use this repo as template and to tinker with the code locally, follow these simple steps:
 
 1. Install GitHub Desktop or other similar Git applications.
-2. Clone this repository to your local machine using ["gh repo clone vanis14/vanis14"].
+2. Clone this repository to your local machine using ["gh repo clone vanis14/Vanis-Portfolio-Site"].
 3. Install Visual Studio Code and install "Live Server" extension.
 4. After installing the live server plugin, open the folder you cloned earlier and right click on "index.html" and select "Open with Live Server" to see the website in action in your browser.
 
