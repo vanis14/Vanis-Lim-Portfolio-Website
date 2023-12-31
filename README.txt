@@ -9,7 +9,7 @@ I am currently looking for opportunities in Cloud related positions and actively
 If you are interested to find out more about me, you can reach me through my website linked in the next section. 
 
 Live Website
-To view the website live, you can visit the deployed version at http://portfolio.vanislim.com/. The website was previously deployed on GitHub Pages but has been migrated to AWS S3.
+To view the website live, you can visit the deployed version at <a href="http://portfolio.vanislim.com/" target="_blank">http://portfolio.vanislim.com/</a>. The website was previously deployed on GitHub Pages but has been migrated to AWS S3.
 
 Getting Started
 If this is your first web project and you'd like use this repo as template and to tinker with the code locally, follow these simple steps:
