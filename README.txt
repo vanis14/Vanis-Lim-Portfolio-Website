@@ -22,5 +22,5 @@ If this is your first web project and you'd like use this repo as template and t
 
 Key Features
 Key skillset showcase: The website is built to showcase my personal projects and skills so others might be able to get some inspiration from it.
-Modern and responsive design: The website is built to adapt seamlessly across various devices and screen sizes by the "Dimension" template from HTML5UP.
+Modern and responsive design: The website is built to adapt seamlessly across various devices and screen sizes by the "iPortfolio" template by BootstrapMade.com.
 Simple API Plugins: I've integrated the Calendly api for simple meeting scheduling function.
