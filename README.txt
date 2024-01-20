@@ -2,7 +2,8 @@ Welcome! This repository contains the source code for my personal portfolio webs
 
 
 About This Repo
-This repository houses the source code for my personal portfolio website, built based on the "Dimension" template by HTML5UP, and designed to showcase my skills and experience in Cloud Computing, Data Science, Web Developement and more. Feel free to explore the code and learn about the technologies behind my online presence.
+This repository houses the source code for my personal portfolio website, built based on the "iPortfolio" template by BootstrapMade.com, and designed to showcase my skills and experience in Cloud Computing, Data Science, Web Developement and more. Feel free to explore the code and learn about the technologies behind my online presence.
+Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 
 About Me
 I am currently looking for opportunities in Cloud related positions and actively developing my skills through small projects. I am a Business Information Systems Bachelor Graduate with working experience in Data Science. Experienced in web development and small scale IT infrastructure deployment. 

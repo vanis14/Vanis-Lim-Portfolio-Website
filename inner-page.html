@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Inner Page - Project Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/images/Logo.png" rel="icon">
+  <link href="/images/Logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="images/profile-square.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Vanis Lim</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.facebook.com/vanislim" target="_blank" class="facebook"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/vanislim/" target="_blank" class="instagram"><i
+              class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/vanis-lim/" target="_blank" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/vanis14/" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="resume/Vanis Lim Hong Chun CV.pdf" download="Vanis Lim Hong Chun CV.pdf" class="download"><i
+              class="bx bx-download"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i><span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i
+                class="bx bx-file-blank"></i><span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i
+                class="bx bx-book-content"></i><span>Portfolio</span></a></li>
+          <li><a href="index.html#services" class="nav-link scrollto"><i
+                class="bx bx-server"></i><span>Services</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i
+                class="bx bx-envelope"></i><span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <style type="text/css">
+      .calendly-badge-widget {
+        right: 100px !important;
+        left: auto !important;
+      }
+    </style>
+    <script
+      type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/vanislim?background_color=191919&text_color=ffffff', text: "Let's have a chat", color: '#0069ff', textColor: '#ffffff', branding: false, left: '200px' }); }</script>
+    <!-- Calendly badge widget end -->
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Home Assistant</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Home Assistant</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page" >
+      <div class="container">
+        <h2>Home Assistant with Synology NAS</h2>
+        <br>
+        <p>
+          I've decided to host a Supervised version of Home Assistant on my Synology NAS DS920+. The reason I
+          choose supervised version over the docker version (container) is due to two main reasons, first being
+          the container version does not support addons, which is essential to my use case, and second, there was
+          a problem with Synology having support issue with docker home assistant at the time of this project.
+        </p>
+
+        <div>
+          <img src="images/projects/ha/dashboard.jpg" href="images/projects/ha/dashboard.jpg"
+            data-gallery="portfolioGallery" class="portfolio-lightbox" width="80%" alt="">
+        </div>
+        <small>Image of the Home Assistant dashboard</small>
+        <br><br>
+        <p>
+          I've installed the supervised Home Assistant on the NAS by using the virtual machine manager. I've created the
+          vm cluster then imported the OVA file of the home assistant supervised.
+
+          The first thing I did after the home assistant booted was to install the HACS: Home Assistant Community Store.
+          It allows me to install many third-party plugins as well as a text editor that allows me to have access to
+          home assistant's config file.
+
+          I also enabled schedule snapshot plans on the Synology Virtual Machine Manager after running into issues when
+          patching the home assistant core, which causes me being blocked from access to it and requires a wipe and
+          reconfig of everything. The snapshots allow me to just reverse back in time when I encounter any issues while
+          configuring the home assistant.
+
+          I've also integrated the reverse proxy available on Synology DSM that allows me to have remote access to the
+          home assistant as a custom solution without paying the monthly home assistant cloud subscription, and I have
+          full control over the network traffic. This is done by integrating my custom domain that I hosted on AWS Route
+          53 public hosted zone.
+          Many of the dashboards and system configuration are done through YAML, it enables faster and more
+          customization in the design of the dashboard and also more control over the system config.
+        </p>
+        <div>
+          <img src="images/projects/ha/dashboard_code.jpg" href="images/projects/ha/dashboard_code.jpg"
+            data-gallery="portfolioGallery" class="portfolio-lightbox" width="80%" alt="">
+        </div>
+        <small>Code of the main dashboard in my Home Assistant profile.</small>
+        <br><br>
+        <div>
+          <img src="images/projects/ha/config.jpg" href="images/projects/ha/config.jpg" data-gallery="portfolioGallery"
+            class="portfolio-lightbox" width="80%" alt="">
+        </div>
+        <small>Config file of the Home Assistant system in YAML format</small>
+        <br>
+        <p>
+          Base system config file that import other automation scripts and scenes, along with whitelisted inbound proxy
+          CIDR blocks.
+        </p>
+        <br><br>
+        <p>
+          Some of the many features that I integrated into HA are included below:
+        </p>
+        <div>
+          <img src="images/projects/ha/sonoff.jpg" href="images/projects/ha/sonoff.jpg" data-gallery="portfolioGallery"
+            class="portfolio-lightbox" width="60%" alt="">
+        </div>
+        <br>
+        <p>
+          I've hosted a plugin of Sonoff controller on HA that allows my eWeLink api Sonoff smart light switches to be
+          directly controls and hosted on my synology nas without exiting my LAN and did not rely on cloud servers of
+          Sonoff and eWeLink, not only that is more secure, but also have minimal latency when turning on/off the
+          lights, which is a common issue with cloud-hosted IoT devices.
+        </p>
+        <br>
+        <div>
+          <img src="images/projects/ha/hik.jpg" href="images/projects/ha/hik.jpg" data-gallery="portfolioGallery"
+            class="portfolio-lightbox" width="80%" alt="">
+        </div>
+        <br>
+        <p>
+          I've also integrated my HIKVision NVR into my HA dashboard by using the ONVIF add-on, this allows me to view
+          everything in my house without switching between multiple apps.
+        </p>
+        <div>
+          <img src="images/projects/ha/streamdeck.jpg" href="images/projects/ha/streamdeck.jpg"
+            data-gallery="portfolioGallery" class="portfolio-lightbox"  alt="">
+        </div>
+        <br>
+        <p>
+          Another thing I've integrated with HA is Elgato Stream Deck by Corsair. I can install the HA plugin on my
+          stream deck, which then allows me to turn on/off any switches, scenes, or script that I've configured in the
+          HA. I've set up a few different buttons on the stream deck that control my Sonoff light switches, and run
+          custom scripts that run a series of actions, like turning on lights, opening a specific website, playing news
+          of the day on my speaker, all by one button.
+        </p>
+        <div>
+          <img src="images/projects/ha/battery.jpg" href="images/projects/ha/battery.jpg"
+            data-gallery="portfolioGallery" class="portfolio-lightbox"  alt="">
+            <br><br>
+            <img src="images/projects/ha/devices.jpg" href="images/projects/ha/devices.jpg"
+            data-gallery="portfolioGallery" class="portfolio-lightbox" width="80%" alt="">
+        </div>
+        <br>
+<p>
+  I can also use HA dashboard to monitor devices that have HA installed on them, I can then see all the battery level and other information on them in a glance.
+</p>
+<br><br><br><br>
+<p>
+  Credit for HA setup guide:
+<a href="https://www.wundertech.net/how-to-set-up-home-assistant-supervised-on-a-synology-nas/" target="_blank">https://www.wundertech.net/how-to-set-up-home-assistant-supervised-on-a-synology-nas/</a>
+
+</p>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
