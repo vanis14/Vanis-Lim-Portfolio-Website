@@ -16,7 +16,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Green Intake - Project Details</title>
+  <title>Ollama - Project Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -111,10 +111,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Green Intake</h2>
+          <h2>Ollama</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Green Intake</li>
+            <li>Ollama</li>
           </ol>
         </div>
 
@@ -129,23 +129,20 @@
 
           <div class="col-lg-8">
             <div>
-              <h2>Green Intake</h2>
+              <h2>Ollama with Open WebUI</h2>
               <div>
                 <div class="portfolio-details-slider swiper">
                   <div class="swiper-wrapper align-items-center">
 
                     <div class="swiper-slide">
-                      <a href="images/projects/GreenIntake/homepage.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox"
-                        title="Homepage of the website, just wanted to mentioned the quote was not designed by me :')"><img
-                          src="images/projects/GreenIntake/homepage.png"></a>
+                      <a href="images/projects/Ollama/ollama_login.png" data-gallery="portfolioGallery"
+                        class="portfolio-lightbox" title="Login page of Open WebUI"><img
+                          src="images/projects/Ollama/ollama_login.png"></a>
                     </div>
 
                     <div class="swiper-slide">
-                      <a href="images/projects/GreenIntake/calorie_finder.png" data-gallery="portfolioGallery"
-                        class="portfolio-lightbox"
-                        title="Calorie finder that allows user to upload their picture and get result."><img
-                          src="images/projects/GreenIntake/calorie_finder.png"></a>
+                      <a href="images/projects/Ollama/ollama.png" data-gallery="portfolioGallery"
+                        class="portfolio-lightbox" title="Main Page"><img src="images/projects/Ollama/ollama.png"></a>
                     </div>
 
 
@@ -154,36 +151,44 @@
                 </div>
                 <p style="padding-top: 10px;">
                   <hr>
-                  This web application was developed under the supervision of a mentor from Dell, that allows users to
-                  upload food pictures, the system will detect the type of food, calculate total calories and nutrient
-                  breakdown result.
+                  I successfully implemented a local language model (LLM) hosting solution that allows external access
+                  to multiple AI models through a user-friendly web interface. This project showcases my skills in cloud
+                  technologies, containerization, and AI model deployment.
                 </p>
 
                 <p>
-                  It was done by integrating a Vision AI model from Clarifai using their food classification model.
-                  Users will upload an image of their meal, and the picture will then be passed to the Clarifai API and
-                  food content in the image will be labeled accordingly. The labels will then return back to the web
-                  application in the backend, which then being sent to the WolframAlpha API to calculate the macro and
-                  micronutrients, and total calories in XML format, the result will then returned to the web server and
-                  shown to the user.
+                  Key components:
+
+                  Utilized Ollama on my personal computer to host the language models, including llama3, mistral 7b, and
+                  others.
+                  Deployed Open WebUI using Docker, enabling a seamless integration of multiple LLM models within a
+                  single interface.
+                  Configured AWS Route 53 to route external traffic to an NGINX reverse proxy running on my home server.
+                  Set up NGINX to forward the traffic to my personal computer, which hosts the Ollama backend and the
+                  Open WebUI front-end.
                 </p>
 
                 <p>
-                  The website was completed as a collaboration between me and other four members as a college project.
-                  Two of the members handle the business and project documentation, another two handle the front-end web
-                  design, and I handle the website’s back-end. That includes the javascript, APIs integration and web
-                  hosting on Google Firebase.
+                  This project demonstrates my ability to:
+
+                  - Host and manage AI language models in a local environment
+                  - Utilize containerization technologies like Docker for efficient deployment
+                  - Configure cloud services (AWS Route 53) for external access
+                  - Implement reverse proxy solutions (NGINX) for secure and controlled traffic routing
+                  - Integrate multiple AI models into a user-friendly web interface
 
                 </p>
 
                 <p>
-                  Unfortunately due to the expired free trial developer api, the website is still available but it will
-                  not return the results of the uploaded image.
+                  Through this project, I have gained hands-on experience in deploying and managing AI models, as well
+                  as showcasing my skills in cloud technologies, networking, and system integration. It highlights my
+                  passion for exploring innovative solutions and my ability to bridge the gap between AI and cloud
+                  computing.
                 </p>
 
                 <p>
-                  This project refined my skills on AI vision recognition, website hosting, API integration and
-                  communication.
+                  You can explore the working demo of this project at:
+                  <a href="https://chat.vanislim.com/" target="_blank"> https://chat.vanislim.com/</a>
                 </p>
 
 
@@ -198,11 +203,13 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web App</li>
-                <li><strong>Project date</strong>: 2021</li>
-                <li><strong>Project URL</strong>: - </li>
-                <li><strong>Tools</strong>: Clarifai, WolframAlpha, Visual Studio Code</li>
-                <li><strong>Technique</strong>: Visual AI, XML, API Integration, HTML, JavaScript</li>
+                <li><strong>Category</strong>: AI/Web App</li>
+                <li><strong>Project date</strong>: Apr 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://chat.vanislim.com/" target="_blank">
+                    https://chat.vanislim.com/</a>
+                </li>
+                <li><strong>Tools</strong>: Route 53, Docker, NGINX, Ollama, Open WebUI</li>
+                <li><strong>Technique</strong>: AI, Network, Containerization</li>
               </ul>
             </div>
             <div class="portfolio-description">
